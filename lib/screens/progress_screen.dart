@@ -205,15 +205,6 @@ class _ProgressScreenState extends State<ProgressScreen> {
                       children: [
                         Expanded(
                           child: _buildMilestoneCard(
-                            icon: Icons.local_fire_department,
-                            iconColor: Colors.orange,
-                            title: "Current Streak",
-                            value: "${appProvider.streakDays} Days",
-                          ),
-                        ),
-                        const SizedBox(width: 14),
-                        Expanded(
-                          child: _buildMilestoneCard(
                             icon: Icons.restaurant,
                             iconColor: Colors.blue,
                             title: "Meals Logged",
