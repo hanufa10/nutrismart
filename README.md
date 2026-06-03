@@ -1,37 +1,98 @@
+# NutriSmart: Intelligent Nutrition Planner
 
-# NutriSmart
+**NutriSmart** is a cross-platform mobile application built with Flutter that serves as a personalized smart nutrition and health companion. Developed as a final project for a Mobile Development course, NutriSmart empowers users to seamlessly track their daily dietary intake, monitor physical metrics, and establish sustainable health habits.
 
-## Overview
+---
 
-**NutriSmart** is an intelligent nutrition planning application developed with Flutter and Firebase. The app is designed to help users take control of their health by providing personalized meal tracking and nutritional insights. By leveraging real-time database synchronization, NutriSmart ensures that users can manage their dietary goals, track daily intake, and maintain healthy habits seamlessly.
+## Table of Contents
+- [Introduction](#introduction)
+- [Key Features](#key-features)
+- [Technology Stack](#technology-stack)
+- [Database Architecture](#database-architecture)
+- [Setup & Installation](#setup-installation)
+- [Authors](#authors)
 
+---
+
+<a name="introduction"></a>
+## Introduction
+
+Tracking nutrition often feels overwhelming and tedious. **NutriSmart** streamlines this experience by offering a dynamic, personalized dashboard where users can set fitness goals, manage meals, and visualize their daily macro-nutrient progress. It transforms standard health logging into an intuitive and visually engaging daily habit.
+
+---
+
+<a name="key-features"></a>
 ## Key Features
 
-* **Secure Authentication:** Robust user registration and login system via Firebase Authentication.
-* **Personalized Nutrition Tracking:** Users can create an account, log their meals, and monitor their nutritional progress.
-* **Real-time Data:** Integration with Cloud Firestore for instant updates across devices.
-* **Clean UI/UX:** Built with Flutter to provide a smooth, responsive, and intuitive interface for health-conscious users.
+### Intelligent Tracking & Visualization
+- **Personalized Dashboard**: Visualizes daily intake and macro-nutrients dynamically.
+- **Weekly Insights Matrix**: See your nutritional patterns over the week using integrated charts.
+- **Goal Setting**: Set and manage goals for your physical metrics (weight, height, age) and daily caloric targets.
 
-## Testing & Evaluation
+### Seamless Meal Management
+- **Add & Remove Meals**: Quickly log breakfast, lunch, dinner, or snacks, instantly updating your daily dashboard.
+- **Data Persistence**: Offline-first local caching paired with real-time cloud synchronization.
 
-To evaluate the application, you can perform a full walkthrough by creating a new account.
+### Secure & Frictionless Access
+- **Firebase Authentication**: Robust, secure sign-up, login, and user session management.
+- **Dynamic Onboarding Form**: Rigorous form validation for personalized user physical metrics during onboarding.
 
-* **Sign-up:** Navigate to the registration screen to create a new user profile.
-* **Core Workflow:** Once logged in, test the dashboard functionality by adding, viewing, or removing dietary data.
+---
 
-## Setup Instructions
+<a name="technology-stack"></a>
+## Technology Stack
 
-1. **Clone the repository:**
-git clone [your-repo-link]
-cd NutriSmart
-2.  **Install dependencies:**
-    flutter pub get
-3. **Firebase Configuration:**
-Ensure your `google-services.json` (for Android) is correctly placed in the `android/app/` folder.
-4. **Run the app:**
-flutter run
+- **Frontend Framework**: [Flutter](https://flutter.dev/) (Dart)
+- **State Management**: Provider
+- **Local Storage**: Hive & Shared Preferences for offline-first capabilities
+- **UI Components & Charts**: `fl_chart` for dynamic visualizations, `google_fonts` for typography, `cupertino_icons`
+- **Backend & Authentication**: Firebase Auth
+- **Real-time Database**: Cloud Firestore
+
+---
+
+<a name="database-architecture"></a>
+## Database Architecture
+
+NutriSmart uses a hybrid architecture for maximum performance and reliability:
+
+- **Local Storage (Hive & Shared Preferences)**: Used for rapid access to user preferences and offline-caching of daily logs.
+- **Cloud Firestore**: Real-time synchronization of user profiles, daily nutrition logs, and weekly goals across multiple devices.
+- **Firebase Auth**: Securely stores identity and session tokens.
+
+---
+
+<a name="setup-installation"></a>
+## Setup & Installation
+
+To run this project locally, ensure you have the Flutter SDK installed on your machine.
+
+1. **Clone the repository**:
+   ```bash
+   git clone <your-repo-url>
+   cd nutrismart
+   ```
+
+2. **Install dependencies**:
+   ```bash
+   flutter pub get
+   ```
+
+3. **Firebase Configuration**:
+   - For Android: Ensure `google-services.json` is placed in `android/app/`.
+   - For iOS: Ensure `GoogleService-Info.plist` is placed in `ios/Runner/`.
+
+4. **Run the application**:
+   ```bash
+   flutter run
+   ```
+
+---
+
+<a name="authors"></a>
 ## Authors
-This project was developed by the following team:
+
+This final project was developed by the following team for our Mobile Development course:
 
 *   **Eden Awoke** - UGR/2222/15
 *   **Hana Hilekiros** - UGR/5655/15
