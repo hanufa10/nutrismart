@@ -2,6 +2,31 @@
 
 **NutriSmart** is a cross-platform mobile application built with Flutter that serves as a personalized smart nutrition and health companion. Developed as a final project for a Mobile Development course, NutriSmart empowers users to seamlessly track their daily dietary intake, monitor physical metrics, and establish sustainable health habits.
 
+<table align="center">
+  <tr>
+    <td width="25%" align="center" style="padding: 5px; vertical-align: top;">
+    <img width="624" height="853" alt="image" src="https://github.com/user-attachments/assets/34bf5e14-06b8-41cf-ad24-3667adc87ab0" />
+    </td>
+    <td width="25%" align="center" style="padding: 5px; vertical-align: top;">
+      <img width="626" height="852" alt="image" src="https://github.com/user-attachments/assets/52d0207b-6a77-4583-92cd-97cfc99efbd0" />
+     </td>
+    <td width="25%" align="center" style="padding: 5px; vertical-align: top;">
+       <img width="623" height="854" alt="image" src="https://github.com/user-attachments/assets/0074eda2-ea47-42e2-a86e-ea1d796bf9d9" />
+    </td>
+  </tr>
+  <tr>
+    <td width="25%" align="center" style="padding: 5px; vertical-align: top;">
+       <img width="623" height="848" alt="image" src="https://github.com/user-attachments/assets/48cbdd87-d9d9-47cf-81aa-db672562d240" />
+    </td>
+    <td width="25%" align="center" style="padding: 5px; vertical-align: top;">
+       <img width="619" height="860" alt="image" src="https://github.com/user-attachments/assets/d56a144b-a488-4ca0-a411-3593b832ec9e" />
+    </td>
+    <td width="25%" align="center" style="padding: 5px; vertical-align: top;">
+       <img width="625" height="853" alt="image" src="https://github.com/user-attachments/assets/a6b3b056-4236-414b-a8ee-b9b76590cfc0" />
+   </td>  
+  </tr>
+</table>
+
 ---
 
 ## Table of Contents
